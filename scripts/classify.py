@@ -89,6 +89,7 @@ def classify(question: str) -> dict:
         (r"梳理", "medium"),
         (r"列出", "medium"),
         (r"指出.*(问题|原因|变化|意义|做法)", "medium"),
+        (r"摘要|案例摘要|写.*摘要", "high"),  # 案例摘要属于概括论述类
     ]
     for pat, conf in gaikuo_patterns:
         if re.search(pat, question):

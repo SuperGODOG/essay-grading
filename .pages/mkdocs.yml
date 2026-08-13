@@ -1,0 +1,36 @@
+site_name: Essay Grading · SuperGODOG
+site_description: 申论作文批改 Hermes skill — 基于题型自动识别的智能批改系统，支持概括论述/对策建议/综合分析/应用文/大作文
+site_url: https://supergodog.github.io/essay-grading/
+repo_url: https://github.com/SuperGODOG/essay-grading
+repo_name: essay-grading
+edit_uri: blob/main/
+
+docs_dir: site_src
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+copyright: Copyright &copy; 2026 SuperGODOG
